@@ -11,7 +11,6 @@
   gap: 20px;
   background: #1D1D1F;
   padding: 100px 200px;
-  border-top: 1px solid #131316;
 }
 
 p {
@@ -44,4 +43,8 @@ p {
 
 .registerNow {
   color: #fff;
+}
+
+.formBtn {
+  background: linear-gradient(90deg, #A9A5FD 0%, #eb5d5d 101.62%);
 }

@@ -5,12 +5,25 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(90deg, #A9A5FD 0%, #EBD75D 101.62%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  
+  background: linear-gradient(90deg, #A9A5FD 0%, #eb5d5d 101.62%);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -19,19 +32,6 @@ a {
   text-decoration: inherit;
   margin-left: 40px;
   font-family: sans-serif;
-}
-a:hover {
-  color: #ffffff;
-  transition: 0.1s;
-  text-decoration: underline;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -52,12 +52,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border: 1px solid #646cff;
 }
 button:focus,
 button:focus-visible {
@@ -71,9 +67,6 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
 
@@ -103,18 +96,16 @@ input {
   border-radius: 4px 4px 0px 0px;
 }
 
-button {
-  color: #000;
-  border-radius: 8px;
-  background: linear-gradient(90deg, #A9A5FD 0%, #EBD75D 101.62%);
-}
-
 button:hover {
   transition: 0.2s;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000;
 }
 
+button:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 2px #007BFF; ---> Подсветка цветом при фокусе */
+}
 
 h3 {
   color: #1D1D1F;

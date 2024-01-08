@@ -1,0 +1,88 @@
+.themeBtn{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.themeBtn:hover {
+    background: linear-gradient(90deg, #A9A5FD 0%, #eb5d5d 101.62%);
+    border: 1px solid #000;
+}
+
+.light {
+    background-color: #e6e6e6;
+    color: #141414;
+}
+
+.darkness {
+    background-color: #141414;
+    color: #e6e6e6;
+}
+
+
+.light div {
+    background-color: #e6e6e6;
+    color: #141414;
+}
+
+.darkness div {
+    background-color: #141414;
+    color: #e6e6e6;
+}
+.light form {
+    border-top: 1px solid #141414;
+    width: 100%;
+    height: auto;
+}
+.darkness form {
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+    height: auto;
+}
+.light input {
+    border: 1px solid #141414;;
+}
+
+.darkness input {
+    border: 1px solid #e6e6e6;
+}
+.light button {
+    border: 1px solid #141414;
+}
+
+.darkness button {
+    border: 1px solid #e6e6e6;
+}
+
+.light span {
+    background: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: #000;
+}
+
+.darkness span {
+    background: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+.light p {
+    background: none;
+    color: #000000;
+}
+
+.darkness p {
+    background: none;
+    color: #ffffff;
+}
+
+.light a:hover {
+    color: #000;
+    text-decoration-line: overline;
+}
+
+.darkness a:hover {
+    color: #fff;
+    text-decoration-line: overline;
+}
